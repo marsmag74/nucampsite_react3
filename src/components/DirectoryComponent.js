@@ -1,4 +1,4 @@
-import React, { Component } from React;
+import React, { Component } from 'react';
 import { Card, CardImg, CardTitle, CardImgOverlay } from 'reactstrap';
 import CampsiteInfo from './CampSiteInfoComponent';
 
