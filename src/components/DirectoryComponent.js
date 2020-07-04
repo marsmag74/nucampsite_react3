@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Card, CardImg, CardText, CardBody, CardTitle, CardImgOverlay } from 'reactstrap';
-
+import Directory from './components/CampsiteInfoComponent';
 class Directory extends Component {
     constructor(props) {
         super(props);
@@ -51,12 +51,9 @@ class Directory extends Component {
                 <div className="row">
                     {directory}
                 </div>
-                <div className="row">
-                    <div className='col-md-5 m-1'>
-                        {this.renderSelectedCampsite(this.state.selectedCampsite)}
-                    </div>
-                </div>
-              
+                <CampsiteInfo campsite= {this.state.selectedCampsite}/>
+                
+            
             </div>
         );
     }
