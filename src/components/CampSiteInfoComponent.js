@@ -63,6 +63,10 @@ function RenderComments({ comments }) {
     return <div />;
 }
 
+// AMY INSTRUCTOR: Your modal is not closing. Found misspelling of the property, isModelOpen.
+// Inconsistent spelling at lines 75 and 84.
+// Please change any isModelOpen to isModalOpen  
+
 class CommentForm extends Component {
     constructor(props) {
         super(props);
